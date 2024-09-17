@@ -14,4 +14,4 @@ let nota = ((t1 * 3) + (t2 * 3) + (t3 * 4)) / 10;
 let situacao = nota >= 6 ? "aprovado" : "em recuperação";
 
 document.getElementById("resultado").innerHTML =
-    'A média final é: ${nota.toFixed(2)}<br>O aluno está ${situacao}';
+    `A média final é: ${nota.toFixed(2)}<br>O aluno está ${situacao}`;
