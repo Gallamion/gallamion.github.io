@@ -43,23 +43,38 @@ button:hover{
     font-size: 18px;
 }
 
-.formula {
-    background-color: #e8f5e9;
-    border-left: 5px solid #4CAF50;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.formula-matematica {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1.3em;
+  margin: 20px 0;
 }
 
-.formula-label {
-    font-weight: bold;
-    color: #2e7d32;
-    font-size: 1.1em;
+.numerador {
+  border-bottom: 2px solid #000;
+  padding: 2px 8px;
 }
 
-.formula-expressao {
-    font-family: 'Courier New', monospace;
-    font-size: 1.2em;
-    color: #1b5e20;
+.denominador {
+  margin-top: 4px;
+}
+
+.formula-matematica {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1.3em;
+  margin: 20px 0;
+}
+
+.numerador {
+  border-bottom: 2px solid #000;
+  padding: 2px 8px;
+}
+
+.denominador {
+  margin-top: 4px;
 }
